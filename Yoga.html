@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <style>
+            h1 {
+                text-align: center;
+                color:rgb(160, 101, 12);
+            }
+
+            h2{
+                text-align: center;
+                color:rgb(160, 101, 12);
+                border-radius: 10px;
+                border: 1px solid rgba(255, 196, 0, 0.486);
+                padding: 1px;
+
+            }
+
+            img{
+                border-radius: 10px;
+                width: 100%;
+            }
+
+            p{
+                font-size: 14px;
+                line-height: 1.5;
+            }
+            button{
+                width: 100%;
+                background: brown;
+                color: white;
+                border: none;
+                padding: 15%;
+                font-size: 20px;
+                border-radius: 30px;
+                box-shadow: 0 15px 20px rgb(0, 0, 0, 0.2);
+                margin: 20px 0;
+
+            }
+
+            footer{
+                text-align: center;
+                font-size: 12px;
+
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>
+            🧘‍♀️Yoga
+        </h1>
+
+        <h2>
+            Discipline
+        </h2>
+
+        <img 
+        src = "https://thumbs.dreamstime.com/b/yoga-meditation-concept-woman-silhouette-healthy-meditating-pose-back-view-sun-light-rays-56996585.jpg" 
+        alt=""
+        width="300"
+        >
+
+        <p>
+            Yoga é uma cena onde fazes exercicio e assim é bue fixe mm confia
+            <br />
+            <br />
+            
+            <a href="https://pt.wikipedia.org/wiki/Ioga" target="_blank">
+                Click here to learn more
+            </a>
+        </p>
+        <button>
+            Go to an Yoga class!
+        </button>
+        <footer>
+            Coded by
+            <a href="https://www.linkedin.com/in/diogo-pedreiro-9615051b6/">
+                Diogo Pedreiro
+            </a>
+        </footer>
+
+        <script>
+            function Subscribe() {
+                let name = prompt("what is your name?");
+                prompt("what is your e-mail?");
+                alert(`Thanks, ${name}! We will be in touch!`);
+            }
+            let button = document.querySelector("button");
+            button.addEventListener("click", Subscribe);
+
+
+        </script>
+
+    </body> 
+</html>
